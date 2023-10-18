@@ -1,0 +1,28 @@
+{
+  "name": "console-humendra",
+  "version": "1.0.0",
+  "description": "a console logger",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmdrx/console-humendra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmdrx/console-humendra/issues"
+  },
+  "homepage": "https://github.com/hmdrx/console-humendra#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
